@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: darkcyan;
+}
+
+.main-container{
+  background-color: white;
+  padding: 50px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 7px;
+}
+
+div>h2{
+  border-left: 20px solid darkcyan;
+  padding-left: 7px;
+}
+
+.inputBox{
+  position: relative;
+  width: 100%;
+  padding: 10px 15px 5px 5px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(101, 101, 101);
+  font-size: 1em;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 550;
+  font-size: 16px;
+}
+
+a:link,a:active,a:hover,a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+button:hover{
+  background-color: darkcyan;
+}
+
+#forgotPass{
+  display: block;
+  text-align: end;
+}
